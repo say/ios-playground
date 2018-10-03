@@ -17,6 +17,16 @@
 		DC2A3EBA2165087200627C6A /* Bubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2A3EB92165087200627C6A /* Bubble.swift */; };
 		DC2A3EBC216508AD00627C6A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2A3EBB216508AD00627C6A /* Extensions.swift */; };
 		DC2A3EBE216510F200627C6A /* BubbleRootNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2A3EBD216510F200627C6A /* BubbleRootNode.swift */; };
+		DC2A3EC4216517A400627C6A /* loki_header.metal in Sources */ = {isa = PBXBuildFile; fileRef = DC2A3EBF216517A300627C6A /* loki_header.metal */; };
+		DC2A3EC5216517A400627C6A /* loki.metal in Sources */ = {isa = PBXBuildFile; fileRef = DC2A3EC0216517A300627C6A /* loki.metal */; };
+		DC2A3EC6216517A400627C6A /* ParticleLab.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2A3EC1216517A300627C6A /* ParticleLab.swift */; };
+		DC2A3EC7216517A400627C6A /* Particles.metal in Sources */ = {isa = PBXBuildFile; fileRef = DC2A3EC2216517A300627C6A /* Particles.metal */; };
+		DC2A3EC8216517A400627C6A /* ParticleSimulationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2A3EC3216517A400627C6A /* ParticleSimulationViewController.swift */; };
+		DC2A3ECC216517EF00627C6A /* CGRect+Fill.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2A3ECB216517EF00627C6A /* CGRect+Fill.swift */; };
+		DC2A3ECE2165180400627C6A /* NSAttributedString+Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2A3ECD2165180400627C6A /* NSAttributedString+Path.swift */; };
+		DC2A3ED221651B9E00627C6A /* PlaygroundOptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2A3ECF21651B9E00627C6A /* PlaygroundOptionViewController.swift */; };
+		DC2A3ED321651B9E00627C6A /* PlaygroundOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2A3ED021651B9E00627C6A /* PlaygroundOption.swift */; };
+		DC2A3ED421651B9E00627C6A /* PlaygroundOptionListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2A3ED121651B9E00627C6A /* PlaygroundOptionListNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +44,16 @@
 		DC2A3EB92165087200627C6A /* Bubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bubble.swift; sourceTree = "<group>"; };
 		DC2A3EBB216508AD00627C6A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		DC2A3EBD216510F200627C6A /* BubbleRootNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleRootNode.swift; sourceTree = "<group>"; };
+		DC2A3EBF216517A300627C6A /* loki_header.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = loki_header.metal; sourceTree = "<group>"; };
+		DC2A3EC0216517A300627C6A /* loki.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = loki.metal; sourceTree = "<group>"; };
+		DC2A3EC1216517A300627C6A /* ParticleLab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParticleLab.swift; sourceTree = "<group>"; };
+		DC2A3EC2216517A300627C6A /* Particles.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Particles.metal; sourceTree = "<group>"; };
+		DC2A3EC3216517A400627C6A /* ParticleSimulationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParticleSimulationViewController.swift; sourceTree = "<group>"; };
+		DC2A3ECB216517EF00627C6A /* CGRect+Fill.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGRect+Fill.swift"; sourceTree = "<group>"; };
+		DC2A3ECD2165180400627C6A /* NSAttributedString+Path.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+Path.swift"; sourceTree = "<group>"; };
+		DC2A3ECF21651B9E00627C6A /* PlaygroundOptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaygroundOptionViewController.swift; sourceTree = "<group>"; };
+		DC2A3ED021651B9E00627C6A /* PlaygroundOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaygroundOption.swift; sourceTree = "<group>"; };
+		DC2A3ED121651B9E00627C6A /* PlaygroundOptionListNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaygroundOptionListNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +106,12 @@
 		DC2A3EA12165068F00627C6A /* SayPlayground */ = {
 			isa = PBXGroup;
 			children = (
+				DC2A3EC9216517AC00627C6A /* Particle System */,
 				DC2A3EB62165080D00627C6A /* Bubble Visualization */,
 				DC2A3EA22165068F00627C6A /* AppDelegate.swift */,
+				DC2A3ED021651B9E00627C6A /* PlaygroundOption.swift */,
+				DC2A3ED121651B9E00627C6A /* PlaygroundOptionListNode.swift */,
+				DC2A3ECF21651B9E00627C6A /* PlaygroundOptionViewController.swift */,
 				DC2A3EBB216508AD00627C6A /* Extensions.swift */,
 				DC2A3EA92165069200627C6A /* Assets.xcassets */,
 				DC2A3EAB2165069200627C6A /* LaunchScreen.storyboard */,
@@ -106,6 +130,29 @@
 				DC2A3EB92165087200627C6A /* Bubble.swift */,
 			);
 			path = "Bubble Visualization";
+			sourceTree = "<group>";
+		};
+		DC2A3EC9216517AC00627C6A /* Particle System */ = {
+			isa = PBXGroup;
+			children = (
+				DC2A3ECA216517AE00627C6A /* Shaders */,
+				DC2A3EC1216517A300627C6A /* ParticleLab.swift */,
+				DC2A3EC3216517A400627C6A /* ParticleSimulationViewController.swift */,
+				DC2A3ECD2165180400627C6A /* NSAttributedString+Path.swift */,
+				DC2A3ECB216517EF00627C6A /* CGRect+Fill.swift */,
+			);
+			name = "Particle System";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		DC2A3ECA216517AE00627C6A /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				DC2A3EBF216517A300627C6A /* loki_header.metal */,
+				DC2A3EC0216517A300627C6A /* loki.metal */,
+				DC2A3EC2216517A300627C6A /* Particles.metal */,
+			);
+			path = Shaders;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,11 +285,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC2A3EA52165068F00627C6A /* BubbleViewController.swift in Sources */,
+				DC2A3EC4216517A400627C6A /* loki_header.metal in Sources */,
+				DC2A3ED321651B9E00627C6A /* PlaygroundOption.swift in Sources */,
 				DC2A3EBC216508AD00627C6A /* Extensions.swift in Sources */,
+				DC2A3ECC216517EF00627C6A /* CGRect+Fill.swift in Sources */,
+				DC2A3ED221651B9E00627C6A /* PlaygroundOptionViewController.swift in Sources */,
 				DC2A3EBA2165087200627C6A /* Bubble.swift in Sources */,
+				DC2A3EC5216517A400627C6A /* loki.metal in Sources */,
+				DC2A3EC8216517A400627C6A /* ParticleSimulationViewController.swift in Sources */,
+				DC2A3EC6216517A400627C6A /* ParticleLab.swift in Sources */,
+				DC2A3ED421651B9E00627C6A /* PlaygroundOptionListNode.swift in Sources */,
 				DC2A3EB52165080900627C6A /* BubbleExtensions.swift in Sources */,
 				DC2A3EBE216510F200627C6A /* BubbleRootNode.swift in Sources */,
+				DC2A3ECE2165180400627C6A /* NSAttributedString+Path.swift in Sources */,
 				DC2A3EA32165068F00627C6A /* AppDelegate.swift in Sources */,
+				DC2A3EC7216517A400627C6A /* Particles.metal in Sources */,
 				DC2A3EB82165085300627C6A /* Vote.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

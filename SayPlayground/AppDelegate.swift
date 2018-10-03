@@ -13,16 +13,29 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+    lazy var bubbleViewController = BubbleViewController(count: 50)
+    lazy var particleViewController = ParticleSimulationViewController()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         window = UIWindow(frame: UIScreen.main.bounds)
         
-        let viewController = BubbleViewController(count: 50)
-
-        let navigationController = UINavigationController(rootViewController: viewController)
-        navigationController.isNavigationBarHidden = true
-        window?.rootViewController = navigationController
+        let rootViewController = PlaygroundOptionViewController()
+        let navigationController = UINavigationController(rootViewController: rootViewController)
+//        navigationController.isNavigationBarHidden = true
+        navigationController.navigationBar.tintColor = UIColor(hexString: "11CC99")
+        navigationController.navigationBar.barStyle = .blackTranslucent
         
+        rootViewController.didSelectOption = { [unowned self] option in
+            switch option {
+            case .bubbleVisualization:
+                navigationController.pushViewController(self.bubbleViewController, animated: true)
+                
+            case .particleSimulator:
+                navigationController.pushViewController(self.particleViewController, animated: true)
+            }
+        }
+        
+        window?.rootViewController = navigationController
         window?.makeKeyAndVisible()
         
         return true
