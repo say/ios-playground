@@ -7,21 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		90DC93E5D4848F803BBC5D0B /* Pods_Swift_SayPlayground.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FAD71D72995157D0CFC0AEA /* Pods_Swift_SayPlayground.framework */; };
 		DC2A3EA32165068F00627C6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2A3EA22165068F00627C6A /* AppDelegate.swift */; };
-		DC2A3EA52165068F00627C6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2A3EA42165068F00627C6A /* ViewController.swift */; };
-		DC2A3EA82165068F00627C6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC2A3EA62165068F00627C6A /* Main.storyboard */; };
+		DC2A3EA52165068F00627C6A /* BubbleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2A3EA42165068F00627C6A /* BubbleViewController.swift */; };
 		DC2A3EAA2165069200627C6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC2A3EA92165069200627C6A /* Assets.xcassets */; };
 		DC2A3EAD2165069200627C6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC2A3EAB2165069200627C6A /* LaunchScreen.storyboard */; };
+		DC2A3EB52165080900627C6A /* BubbleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2A3EB42165080700627C6A /* BubbleExtensions.swift */; };
+		DC2A3EB82165085300627C6A /* Vote.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2A3EB72165085300627C6A /* Vote.swift */; };
+		DC2A3EBA2165087200627C6A /* Bubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2A3EB92165087200627C6A /* Bubble.swift */; };
+		DC2A3EBC216508AD00627C6A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2A3EBB216508AD00627C6A /* Extensions.swift */; };
+		DC2A3EBE216510F200627C6A /* BubbleRootNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2A3EBD216510F200627C6A /* BubbleRootNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04EA2781BDB3153C74FF26E5 /* Pods-Swift-SayPlayground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift-SayPlayground.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Swift-SayPlayground/Pods-Swift-SayPlayground.debug.xcconfig"; sourceTree = "<group>"; };
+		0F2DB07A03CC3D4390DC5179 /* Pods-Swift-SayPlayground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift-SayPlayground.release.xcconfig"; path = "Pods/Target Support Files/Pods-Swift-SayPlayground/Pods-Swift-SayPlayground.release.xcconfig"; sourceTree = "<group>"; };
+		3FAD71D72995157D0CFC0AEA /* Pods_Swift_SayPlayground.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swift_SayPlayground.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC2A3E9F2165068F00627C6A /* SayPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SayPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC2A3EA22165068F00627C6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DC2A3EA42165068F00627C6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DC2A3EA72165068F00627C6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC2A3EA42165068F00627C6A /* BubbleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleViewController.swift; sourceTree = "<group>"; };
 		DC2A3EA92165069200627C6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC2A3EAC2165069200627C6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC2A3EAE2165069200627C6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC2A3EB42165080700627C6A /* BubbleExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleExtensions.swift; sourceTree = "<group>"; };
+		DC2A3EB72165085300627C6A /* Vote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vote.swift; sourceTree = "<group>"; };
+		DC2A3EB92165087200627C6A /* Bubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bubble.swift; sourceTree = "<group>"; };
+		DC2A3EBB216508AD00627C6A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		DC2A3EBD216510F200627C6A /* BubbleRootNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleRootNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90DC93E5D4848F803BBC5D0B /* Pods_Swift_SayPlayground.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A9A7C63EBD993D3B99FCE365 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FAD71D72995157D0CFC0AEA /* Pods_Swift_SayPlayground.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB342538866A0B0EAAA46527 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				04EA2781BDB3153C74FF26E5 /* Pods-Swift-SayPlayground.debug.xcconfig */,
+				0F2DB07A03CC3D4390DC5179 /* Pods-Swift-SayPlayground.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DC2A3E962165068F00627C6A = {
 			isa = PBXGroup;
 			children = (
 				DC2A3EA12165068F00627C6A /* SayPlayground */,
 				DC2A3EA02165068F00627C6A /* Products */,
+				AB342538866A0B0EAAA46527 /* Pods */,
+				A9A7C63EBD993D3B99FCE365 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +86,26 @@
 		DC2A3EA12165068F00627C6A /* SayPlayground */ = {
 			isa = PBXGroup;
 			children = (
+				DC2A3EB62165080D00627C6A /* Bubble Visualization */,
 				DC2A3EA22165068F00627C6A /* AppDelegate.swift */,
-				DC2A3EA42165068F00627C6A /* ViewController.swift */,
-				DC2A3EA62165068F00627C6A /* Main.storyboard */,
+				DC2A3EBB216508AD00627C6A /* Extensions.swift */,
 				DC2A3EA92165069200627C6A /* Assets.xcassets */,
 				DC2A3EAB2165069200627C6A /* LaunchScreen.storyboard */,
 				DC2A3EAE2165069200627C6A /* Info.plist */,
 			);
 			path = SayPlayground;
+			sourceTree = "<group>";
+		};
+		DC2A3EB62165080D00627C6A /* Bubble Visualization */ = {
+			isa = PBXGroup;
+			children = (
+				DC2A3EB72165085300627C6A /* Vote.swift */,
+				DC2A3EB42165080700627C6A /* BubbleExtensions.swift */,
+				DC2A3EA42165068F00627C6A /* BubbleViewController.swift */,
+				DC2A3EBD216510F200627C6A /* BubbleRootNode.swift */,
+				DC2A3EB92165087200627C6A /* Bubble.swift */,
+			);
+			path = "Bubble Visualization";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +115,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC2A3EB12165069200627C6A /* Build configuration list for PBXNativeTarget "SayPlayground" */;
 			buildPhases = (
+				F019965ED5D6F1FA6AF258E6 /* [CP] Check Pods Manifest.lock */,
 				DC2A3E9B2165068F00627C6A /* Sources */,
 				DC2A3E9C2165068F00627C6A /* Frameworks */,
 				DC2A3E9D2165068F00627C6A /* Resources */,
+				179B9C3C6D5BA1E0EF14027D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,33 +170,86 @@
 			files = (
 				DC2A3EAD2165069200627C6A /* LaunchScreen.storyboard in Resources */,
 				DC2A3EAA2165069200627C6A /* Assets.xcassets in Resources */,
-				DC2A3EA82165068F00627C6A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		179B9C3C6D5BA1E0EF14027D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Swift-SayPlayground/Pods-Swift-SayPlayground-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Magnetic/Magnetic.framework",
+				"${BUILT_PRODUCTS_DIR}/PINCache/PINCache.framework",
+				"${BUILT_PRODUCTS_DIR}/PINOperation/PINOperation.framework",
+				"${BUILT_PRODUCTS_DIR}/PINRemoteImage/PINRemoteImage.framework",
+				"${PODS_ROOT}/Reveal-SDK/RevealServer-17/iOS/RevealServer.framework",
+				"${BUILT_PRODUCTS_DIR}/Texture/AsyncDisplayKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Magnetic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINCache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINOperation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINRemoteImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RevealServer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AsyncDisplayKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Swift-SayPlayground/Pods-Swift-SayPlayground-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F019965ED5D6F1FA6AF258E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Swift-SayPlayground-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DC2A3E9B2165068F00627C6A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC2A3EA52165068F00627C6A /* ViewController.swift in Sources */,
+				DC2A3EA52165068F00627C6A /* BubbleViewController.swift in Sources */,
+				DC2A3EBC216508AD00627C6A /* Extensions.swift in Sources */,
+				DC2A3EBA2165087200627C6A /* Bubble.swift in Sources */,
+				DC2A3EB52165080900627C6A /* BubbleExtensions.swift in Sources */,
+				DC2A3EBE216510F200627C6A /* BubbleRootNode.swift in Sources */,
 				DC2A3EA32165068F00627C6A /* AppDelegate.swift in Sources */,
+				DC2A3EB82165085300627C6A /* Vote.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DC2A3EA62165068F00627C6A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DC2A3EA72165068F00627C6A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DC2A3EAB2165069200627C6A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -280,6 +379,7 @@
 		};
 		DC2A3EB22165069200627C6A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04EA2781BDB3153C74FF26E5 /* Pods-Swift-SayPlayground.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +398,7 @@
 		};
 		DC2A3EB32165069200627C6A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F2DB07A03CC3D4390DC5179 /* Pods-Swift-SayPlayground.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
